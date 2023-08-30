@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(134, 72, 66);
+}
+
+.container {
+    background-color: rgb(214, 213, 213);
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px  rgb(207, 193, 158);
+}
+
+#question-text {
+    text-align: center;
+}
+
+.answer-section {
+    margin: 15px 0;
+}
+
+.option {
+    padding: 5px;
+}
+
+.btn {
+    background-color: dodgerblue;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-section {
+    text-align: center;
+}
+
+#result-section {
+    text-align: center;
+}
+
+.display {
+    display: none;
+}
